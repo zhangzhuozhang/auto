@@ -60,6 +60,10 @@ $(function(){
 			slider.animate({'left':'-1200px'},0);   
 			index=1;
 		}
+		if(index<1){
+			slider.animate({'left':-1200*5+'px'},0);
+			index=5
+		}
 		
 	}
 	function autoDo(){
